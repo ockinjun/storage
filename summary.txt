@@ -1,0 +1,33 @@
+26 Concurrency
+
+what is a thread?
+Thread is a model for placing multiple execution flows within a single program
+
+Whenever a thread is creadted, the memory space (Stack)for that thread is called a thread stack,
+which provides the necessay space for the operation required by the stack
+
+Steps to use the Thread class
+1.Inherit Thread class as a custom class
+2.Write the Statement you want to thread to void run, an instance method ofthe Thread class
+3.Create an instance of a custom class that inherits from the Thread class and store it in an instancevariable
+Instance method of Thread class by instance variable created in step 3 void start call
+
+
+Flow and associated tasks
+1.private
+2.Stack
+3.Register See
+4.Pc
+etc..
+
+Context switch -> Thread unit
+
+Thread vs Process
+
+Light weight : Context Switch
+TCB <- saved Page Table
+Easy to share data
+
+what makes thread programming hard?
+
+Synchronization
